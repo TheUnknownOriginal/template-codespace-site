@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{TheUnknownOriginal}.github.io/{template-codespace-site}'",
+    "build-gh": "parcel build --public-url 'https://TheUnknownOriginal.github.io/template-codespace-site'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
